@@ -76,8 +76,8 @@ semilogy(SNR_dB, OP_D2_asym,  'k--', 'LineWidth', 1.2, 'HandleVisibility', 'off'
 semilogy(SNR_dB, OP_D2_sim,   'ko',  'MarkerSize', 5.5, 'MarkerFaceColor', 'k', 'HandleVisibility', 'off');
 
 % === Định dạng nhãn và giới hạn trục ===
-xlim([16 35]); 
-ylim([1e-3 0.12]);
+xlim([16 40]); 
+ylim([4e-4 0.12]);
 xlabel('SNR (dB)', 'FontSize', 11, 'FontName', 'Times New Roman');
 ylabel('Outage Probability', 'FontSize', 11, 'FontName', 'Times New Roman');
 
